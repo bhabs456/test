@@ -1,0 +1,1231 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: white;
+    color: rgb(44, 44, 44);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo img {
+    height: 43px;
+    width: 76.41px;
+    padding: 10px 22.5px 10px 10px;
+    cursor: pointer;
+}
+
+a {
+    font-size: 16px;
+    text-align: center;
+    font-family: Bahnschrift;
+    padding: 0px 22.5px 0px 22.5px;
+    cursor: pointer;
+}
+
+.one {
+    color: black;
+    text-decoration: none;
+    padding: 26px 22.5px 26px 22.5px;
+}
+
+.one:hover {
+    background-color: rgba(235, 232, 232, 0.350);
+}
+
+.arrow-down{
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    position: relative;
+    bottom: 2px;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.sign-in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6px;
+    margin-left: 365px;
+}
+
+svg {
+    display: inline-block;
+    padding: 6px 6px 6px 6px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    background-size: contain;
+}
+
+svg:hover {
+    background-color: rgba(151, 148, 148, 0.425);
+    border-radius: 20%;
+
+}
+
+button {
+    background-color: white;
+    color: rgb(44, 44, 44);
+    font-size: 16px;
+    text-align: center;
+    font-family: Bahnschrift;
+    border: 2.5px solid rgb(218, 218, 218);
+    border-radius: 20px;
+    padding: 6px 16px 6px 16px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(230, 230, 230);
+    border-color: rgba(151, 148, 148, 0.425);
+}
+
+.image-container {
+    height: 768px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    top: 20px;
+    justify-content: center;
+}
+
+.screen {
+    width: 100%;
+    height: 768px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text-overlay {
+    color: black;
+    font-family: Bahnschrift;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+   
+}
+
+.container-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    gap: 30px;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    position: absolute;  
+    bottom: 10px;
+}
+
+.text-overlay h1 {
+    position: relative;
+    top: 30px;
+    font-size: 40px;
+}
+
+.header2 {
+    position: relative;
+    top: 25px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.container1 {
+    height: 500px;
+    width: 850px;
+    border: 2px solid white;
+    background-color: rgba(255, 248, 248, 0.40);
+    background: linear-gradient(to right, rgba(255, 248, 248, 0.40), rgba(255, 248, 248, 0.10));
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container1 img {
+    height: 350px;
+    position: relative;
+    top: 150px;
+    left: 0px;
+}
+
+.container1 h2 {
+    font-family: Bahnschrift;
+    font-size: 20px;
+    padding-left: 24px;
+    position: relative;
+    top: -320px;
+}
+
+.container1 p {
+    padding-left: 24px;
+    font-size: 18px;
+    font-family: Bahnschrift;
+    position: relative;
+    top: -300px;
+    font-weight: 100;
+}
+
+.container1 .para1{
+    font-weight: bold;
+    font-size: 27px;
+    padding-bottom: 15px;
+}
+
+.container1 .click1{
+    height: 40px;
+    padding: 11px 18px 10px 18px;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    margin-left: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -290px;
+    border: 2.5px solid black;
+    background-color: transparent;
+}
+
+.container1:hover .click1 {
+    background-color: black;
+    color: white;
+
+}
+
+.container2 {
+    height: 500px;
+    width: 410px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255, 0.40);
+    background: linear-gradient(to right, rgba(255, 248, 248, 0.40), rgba(255, 248, 248, 0.20));
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.container2 img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 272px;
+}
+
+.container2 h2 {
+    font-family: Bahnschrift;
+    font-size: 20px;
+    padding-left: 24px;
+    position: relative;
+    top: -198px;
+}
+
+.container2 p {
+    padding-left: 24px;
+    font-size: 18px;
+    font-family: Bahnschrift;
+    position: relative;
+    top: -178px;
+    font-weight: 100;
+}
+
+.container2 .para2 {
+    font-weight: bold;
+    font-size: 27px;
+    padding-bottom: 15px;
+}
+
+.container2 .click2 {
+    color: black;
+    text-decoration: none;
+    padding-left: 24px;
+    position: relative;
+    top: -165px;
+}
+
+.container2:hover .click2 {
+    text-decoration: underline;
+}
+
+.bar{
+    font-family: Bahnschrift;
+    height: 45px;
+    width: 100%;
+    margin: 20px 0px 5px 0px;
+    position: relative;
+    align-items: center;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    background-color: white;
+}
+
+.bar-h2 {
+    font-size: larger;
+}
+
+.bar .forbar {
+    padding: 6px 10px 6px 10px;
+    border-color: black;
+    color: black;
+}
+
+.bar .forbar:hover {
+    color: white;
+    background-color: black;
+}
+
+.seenusamba {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 35px;
+   
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    height: 100%;
+    width: 1500px;
+    padding: 0;
+    margin: 0;
+}
+
+.boxes .box1 {
+    height: 500px;
+    width: 410px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.box1 .box1-img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.box1 .box1-h2 {
+    font-family: Bahnschrift;
+    color: white;
+    position: absolute;
+    padding-left: 24px;
+    transform: translateY(-460px);
+}
+
+.box1 .box1-p {
+    font-family: Bahnschrift;
+    color: white;
+    position: absolute;
+    padding-left: 24px;
+    transform: translateY(-417px);
+    font-size: large;
+    line-height: 25px;
+}
+
+.box1 .box1-a {
+    font-family: Bahnschrift;
+    color: white;
+    padding-left: 24px;
+    position: absolute;
+    bottom: -30px;
+    transform: translateY(-50px);
+    transform: translateX(-121px);
+    text-decoration: none;
+}
+
+.box1:hover .box1-a {
+    text-decoration: underline;
+}
+
+.boxes .box2 {
+    height: 500px;
+    width: 410px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.box2 .box2-img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box2 .box2-h3 {
+    font-family: Bahnschrift;
+    position: absolute;
+    padding-left: 24px;
+    transform: translateY(35px);
+    font-weight: 400;
+}
+
+.box2 .box2-h2 {
+    font-family: Bahnschrift;
+    position: absolute;
+    padding-left: 24px;
+    transform: translateY(70px);
+    font-weight: 500;
+}
+
+.box2 .box2-p {
+    font-family: Bahnschrift;
+    position: absolute;
+    padding-left: 24px;
+    transform: translateY(135px);
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.box2 .box2-a {
+    font-family: Bahnschrift;
+    position: absolute;
+    padding-left: 24px;
+    transform: translateY(207px);
+    font-size: small;
+    color: black;
+    text-decoration: none;
+}
+
+.box2:hover .box2-a {
+    text-decoration: underline;
+}
+
+.boxes .box3 {
+    height: 500px;
+    width: 410px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #ededed;
+}
+
+.box3 .barbox {
+    height: 25%;
+    background: linear-gradient(to right, #ff0000 -90px, #800080 250px);
+}
+
+ .box3 .box3-h2{
+    font-family: Bahnschrift;
+    color: white;
+    padding-left: 24px;
+    font-size: 22px;
+    position: relative;
+    top: -85px;
+}
+
+.box3 .box3-h3-1{
+    font-family: Bahnschrift;
+    font-size: 25px;
+    padding-left: 24px;
+    position: relative;
+    top: -20px;
+}
+
+.box3 .box3-b{
+    color: black;
+    text-decoration: none;
+    line-height: 25px;
+}
+
+.box3 .box3-h3-2{
+    font-family: Bahnschrift;
+    font-size: 25px;
+    padding-left: 24px;
+    position: relative;
+    top: 15px;
+}
+
+.box3 .box3-c{
+    color: black;
+    text-decoration: none;
+    line-height: 25px;
+    position: relative;
+    top: 35px;
+}
+
+.box3 .box3-b:hover, .box3-c:hover{
+    text-decoration: underline;
+}
+
+.boxes .box4 {
+    height: 500px;
+    width: 850px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    transform: translate(auto, -557px);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.box4 .box4-img{
+    height: auto;
+    width: auto;
+    position: relative;
+    left: -170px;
+}
+
+.box4 .box4-h2{
+    font-family: Bahnschrift;
+    position: absolute;
+    transform: translate(-285px, 40px);
+    padding-left: 24px;
+}
+
+.box4 .box4-p{
+    font-family: Bahnschrift;
+    position: absolute;
+    padding-left: 24px;
+    font-weight: 350;
+    line-height: 25px;
+    transform: translate(-78px, 80px);
+}
+
+.box4 .box4-a{
+    font-family: Bahnschrift;
+    padding-left: 24px;
+    position: absolute;
+    transform: translate(-306px, 140px);
+    text-decoration: none;
+    color: black;
+}
+
+.box4:hover .box4-a{
+    text-decoration: underline;
+}
+
+.boxes .box5 {
+    height: 500px;
+    width: 410px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    cursor: pointer;
+}
+
+.box5 .box5-h3{
+    font-family: Bahnschrift;
+    position: absolute;
+    padding-left: 24px;
+    color: white;
+    transform: translateY(40px);
+    font-size: medium;
+}
+
+.box5 .box5-h2{
+    font-family: Bahnschrift;
+    position: absolute;
+    padding-left: 24px;
+    color: white;
+    transform: translateY(75px);
+}
+
+.box5 .box5-p{
+    font-family: Bahnschrift;
+    position: absolute;
+    padding-left: 24px;
+    color: white;
+    transform: translateY(118px);
+    line-height: 25px;
+}
+
+.box5 .box5-a{
+    font-family: Bahnschrift;
+    position: absolute;
+    padding-left: 24px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transform: translateY(180px);
+    text-decoration: none;
+}
+
+.box5:hover .box5-a{
+    text-decoration: underline;
+}
+
+.boxes .box6 {
+    height: 500px;
+    width: 410px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    cursor: pointer;
+}
+
+.box6 .box6-img{
+    position: relative;
+    right: 86px;
+}
+
+.box6 .box6-h2{
+    font-family: Bahnschrift;
+    position: absolute;
+    font-size: 23px;
+    font-weight: 500;
+    transform: translateY(40px);
+    padding-left: 24px;
+
+}
+
+.box6 .box6-p{
+    font-family: Bahnschrift;
+    position: absolute;
+    padding-left: 24px;
+    transform: translateY(80px);
+    font-weight: 350;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.box6 .box6-a{
+    font-family: Bahnschrift;
+    position: absolute;
+    padding-left: 24px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transform: translateY(165px);
+}
+
+.box6:hover .box6-a{
+    text-decoration: underline;
+}
+
+.boxes .box7 {
+    background-color: rgb(94, 83, 221);
+    height: 500px;
+    width: 410px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    
+    cursor: pointer;
+}
+
+.box7 .box7-img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 36px;
+    object-fit: contain;
+}
+
+.box7 .box7-h3{
+    font-family: Bahnschrift;
+    padding-left: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    transform: translateY(40px);
+    position: absolute;
+}
+
+.box7 .box7-h2{
+    font-family: Bahnschrift;
+    padding-left: 24px;
+    color: white;
+    font-size: 22.5px;
+    transform: translateY(75px);
+    position: absolute;
+}
+
+.box7 .box7-p{
+    font-family: Bahnschrift;
+    padding-left: 24px;
+    color: white;
+    font-size: 16px;
+    line-height: 25px;
+    transform: translateY(114px);
+    position: absolute;
+}
+
+.box7 .box7-a{
+    font-family: Bahnschrift;
+    position: absolute;
+    padding-left: 24px;
+    font-weight: bold;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    transform: translateY(172px);
+    text-decoration: none;
+    color: white;
+}
+
+.box7:hover .box7-a{
+    text-decoration: underline;
+}
+
+.boxes .box8 {
+    height: 500px;
+    width: 410px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    cursor: pointer;
+}
+
+.box8 .box8-h3{
+    font-family: Bahnschrift;
+    position: absolute;
+    padding-left: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    transform: translateY(40px);
+}
+
+.box8 .box8-h2{
+    font-family: Bahnschrift;
+    position: absolute;
+    padding-left: 24px;
+    font-size: 22px;
+    font-weight: 600;
+    transform: translateY(75px);
+}
+
+.box8 .box8-p{
+    font-family: Bahnschrift;
+    position: absolute;
+    padding-left: 24px;
+    transform: translateY(140px);
+    line-height: 25px;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.box8 .box8-a{
+    font-family: Bahnschrift;
+    position: absolute;
+    padding-left: 24px;
+    font-weight: bold;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    transform: translateY(200px);
+    text-decoration: none;
+}
+
+.box8:hover .box8-a{
+    text-decoration: underline;
+}
+
+.footertext{
+    height: 50px;
+    font-size: 16px;
+    font-family: Bahnschrift;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 35px;
+    margin: 20px 0px 50px 0px;
+}
+
+.footertext-a{
+    position: relative;
+    right: 18px;
+    color: #5683fc;
+}
+
+footer{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    height: 520px;
+    /* background-color: #452929; */
+    background-color: #fafafa;
+}
+
+.footer-wrapper{
+    width: 1290px;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    /* background-color: #ff0000; */
+}
+
+.footer-wrapper .footer-content{
+    /* background-color: aqua; */
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+}
+
+.footer-content .column1{
+    font-family: Bahnschrift;
+    padding-top: 10px;
+    
+}
+
+.footer-content .column1-h2{
+    padding-left: 24px;
+    font-size: 16px;
+    color: #555c66;
+    font-weight: 500;
+}
+
+.footer-content .column1-a{
+   color: #555c66;
+   position: relative;
+   font-size: 12px;
+   text-decoration: none;
+   font-weight: 400;
+   top: 15px;
+   line-height: 25px;
+}
+
+.footer-content .column1-a:hover{
+    color: #5683fc;
+}
+
+.footer-content .column2{
+    font-family: Bahnschrift;
+    padding-top: 10px;
+   
+}
+
+.footer-content .column2-h2-1{
+    padding-left: 24px;
+    font-size: 17px;
+    color: #555c66;
+    font-weight: 500;
+}
+
+.footer-content .column2-h2-2{
+    padding-left: 24px;
+    font-size: 17px;
+    color: #555c66;
+    font-weight: 500;
+    position: relative;
+    top: 50px;
+}
+
+.footer-content .column2-h2-3{
+    padding-left: 24px;
+    font-size: 17px;
+    color: #555c66;
+    font-weight: 500;
+    position: relative;
+    top: 100px;
+}
+
+.footer-content .column2-a-1{
+    color: #555c66;
+    position: relative;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 400;
+    top: 15px;
+    line-height: 25px;
+}
+
+.footer-content .column2-a-2{
+    color: #555c66;
+    position: relative;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 400;
+    top: 65px;
+    line-height: 25px;
+}
+
+.footer-content .column2-a-3{
+    color: #555c66;
+    position: relative;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 400;
+    top: 115px;
+    line-height: 25px;
+}
+
+.footer-content .column2-a-1:hover, .column2-a-2:hover, .column2-a-3:hover{
+    color: #5683fc;
+}
+
+.footer-content .column3{
+    font-family: Bahnschrift;
+    padding-top: 10px;
+   
+}
+
+.footer-content .column3-h2{
+    padding-left: 24px;
+    font-size: 16px;
+    color: #555c66;
+    font-weight: 500;
+}
+
+.footer-content .column3-a{
+   color: #555c66;
+   position: relative;
+   font-size: 12px;
+   text-decoration: none;
+   font-weight: 400;
+   top: 15px;
+   left: 2px;
+   line-height: 25px;
+}
+
+.footer-content .column3-a:hover{
+    color: #5683fc;
+}
+
+.footer-content .column4{
+    font-family: Bahnschrift;
+    padding-top: 10px;
+}
+
+.footer-content .column4-h2-1{
+    padding-left: 24px;
+    font-size: 17px;
+    color: #555c66;
+    font-weight: 500;
+}
+
+.footer-content .column4-h2-2{
+    padding-left: 24px;
+    font-size: 17px;
+    color: #555c66;
+    font-weight: 500;
+    position: relative;
+    top: 50px;
+}
+
+.footer-content .column4-h2-3{
+    padding-left: 24px;
+    font-size: 17px;
+    color: #555c66;
+    font-weight: 500;
+    position: relative;
+    top: 100px;
+}
+
+.footer-content .column4-a-1{
+    color: #555c66;
+    position: relative;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 400;
+    top: 15px;
+    line-height: 25px;
+}
+
+.footer-content .column4-a-2{
+    color: #555c66;
+    position: relative;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 400;
+    top: 65px;
+    line-height: 25px;
+}
+
+.footer-content .column4-a-3{
+    color: #555c66;
+    position: relative;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 400;
+    top: 115px;
+    line-height: 25px;
+}
+
+.footer-content .column4-a-1:hover, .column4-a-2:hover, .column4-a-3:hover{
+    color: #5683fc;
+}
+
+.footer-content .column5{
+    font-family: Bahnschrift;
+    padding-top: 10px;
+}
+
+.footer-content .column5-h2{
+    padding-left: 24px;
+    font-size: 16px;
+    color: #555c66;
+    font-weight: 500;
+}
+
+.footer-content .column5-a{
+   color: #555c66;
+   position: relative;
+   font-size: 12px;
+   text-decoration: none;
+   font-weight: 400;
+   top: 15px;
+   left: 2px;
+   line-height: 25px;
+}
+
+.footer-content .column5-a:hover{
+    color: #5683fc;
+}
+
+.footer-bar{
+    font-family: Bahnschrift;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    gap: 10px;
+    transform: translate(-10px, 415px);
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: #555c66;
+    padding: 12px 0px 12px 0px;
+    margin: 0px 32px;
+    width: 1188px;
+}
+
+.featuredproducts{
+    color:#555c66;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.navlink1{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-right: 0px;
+    padding-left: 1px;
+}
+
+.navlink1 .navlink1-img{
+    height: 25px;
+    width: auto;;
+    display: flex;
+    align-items: center;
+}
+
+.navlink1 .navlink1-text{
+    font-size: 12px;
+    color: #555c66;
+}
+
+.navlink1:hover .navlink1-text{
+    color: #5683fc;
+}
+
+.navlink2{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-right: 0px;
+}
+
+.navlink2 .navlink2-img{
+    height: 25px;
+    width: auto;;
+    display: flex;
+    align-items: center;
+}
+
+.navlink2 .navlink2-text{
+    font-size: 12px;
+    color: #555c66;
+}
+
+.navlink2:hover .navlink2-text{
+    color: #5683fc;
+}
+
+.navlink3{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-right: 0px;
+}
+
+.navlink3 .navlink3-img{
+    height: 25px;
+    width: auto;;
+    display: flex;
+    align-items: center;
+}
+
+.navlink3 .navlink3-text{
+    font-size: 12px;
+    color: #555c66;
+}
+
+.navlink3:hover .navlink3-text{
+    color: #5683fc;
+}
+
+.navlink4{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-right: 0px;
+}
+
+.navlink4 .navlink4-img{
+    height: 25px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.navlink4 .navlink4-text{
+    font-size: 12px;
+    color: #555c66;
+}
+
+.navlink4:hover .navlink4-text{
+    color: #5683fc;
+}
+
+.endfooter{
+    font-family: Bahnschrift;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.part1{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 495px;
+    right: 2px;
+}
+
+.part1 .part1-img{
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.part1 .part1-text{
+    margin-left: 8px;
+    font-size: 14px;
+    color: black;
+}
+
+.arrow-down1{
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    margin-left: 2px;
+    position: relative;
+    bottom: 2px;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.part1:hover .arrow-down1{
+    border-color: #5683fc;
+}
+
+.part1:hover .part1-text{
+    color: #5683fc;
+}
+
+.part2{
+    position: relative;
+    top: 495px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    right: 1px;
+    margin-left: 25px;
+}
+
+.part2 .icons{
+    height: 25px;
+    position: relative;
+    cursor: pointer;
+}
+
+.part3{
+    display: flex;
+    position: relative;
+    top: 495px;
+    left: 291px;
+    font-size: 12px;
+}
+
+.part3 .span1{
+    padding-right: 2px;
+}
+
+.part3 .lasttext{
+    position: relative;
+    right: 20px;
+    margin-right: -40px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.part3 .adchoices{
+    height: 13px;
+    padding-left: 1px;
+    clip-path: inset(0.1px 0.8px 0.05px 3px);
+    transform: scaleY(-1);
+}
+
+.part3 .lasttext:hover{
+    color: #5683fc;
+}
+
